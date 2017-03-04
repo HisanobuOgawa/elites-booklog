@@ -214,7 +214,12 @@ ja:
       short: "%y/%m/%d %H:%M"
     pm: 午後
     
-   book:
+  book:
     created: '作成しました。'
     updated: '更新しました。'
     deleted: '削除しました。'
+  
+  bookmark:
+    created: 'ブックマークに追加しました。'
+    deleted: 'ブックマークを削除しました。'  
+  
