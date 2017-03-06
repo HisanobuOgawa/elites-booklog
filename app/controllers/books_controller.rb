@@ -8,7 +8,7 @@ class BooksController < ApplicationController
     elsif user_signed_in? && params[:ft] && params[:ft] == 'bookmark'
       @books = Book.joins(:bookmarks).where('bookmarks.user_id = ?', current_user.id).order('updated_at DESC')
     elsif params[:ft]
-    　@books = Book.where(category: params[:ft]).order('updated_at DESC')
+      @books = Book.where(category: params[:ft]).order('updated_at DESC')
     else
       @books = Book.includes(:bookmarks, :reviews, :user).order('updated_at DESC')
    end
