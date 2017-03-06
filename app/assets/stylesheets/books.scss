@@ -179,6 +179,18 @@ div.my_review_wrapper {
     }
   }
 
+.category{
+  font-size: 0px;
+}
+
+.category-item{
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 15px;
+}
+
 
 div.wrapper.book_input {
   margin-top: 0;
